@@ -1,3 +1,3 @@
 # myMoney
-A finance tracker build to test firebase authentication and firestore rules. 
+A finance tracker build to test firebase authentication and firestore rules. <br>
 View it here - https://mymoney-344d7.web.app/
