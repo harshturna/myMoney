@@ -21,7 +21,7 @@ function Signup() {
       <h2>Signup</h2>
 
       <label>
-        <span>display name:</span>
+        <span>display name</span>
         <input
           type="text"
           onChange={(e) => setName(e.target.value)}
