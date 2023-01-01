@@ -17,7 +17,7 @@ function Login() {
     <form onSubmit={handleSubmit} className={styles["login-form"]}>
       <h2>Login</h2>
       <label>
-        <span>email: </span>
+        <span>email</span>
         <input
           type="email"
           onChange={(e) => setEmail(e.target.value)}
@@ -26,7 +26,7 @@ function Login() {
       </label>
 
       <label>
-        <span>password:</span>
+        <span>password</span>
         <input
           type="password"
           onChange={(e) => setPassword(e.target.value)}
