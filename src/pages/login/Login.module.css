@@ -17,3 +17,9 @@
   color: #777;
   width: 100%;
 }
+
+@media (max-width: 450px) {
+  .login-form {
+    padding-inline: 60px;
+  }
+}
