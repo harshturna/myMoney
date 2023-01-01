@@ -17,6 +17,7 @@ function Home() {
     <div className={styles.container}>
       <div className={styles.content}>
         {error && <p>{error}</p>}
+        {documents.length === 0 && <h3>No Transactions to show</h3>}
         {documents && <TransactionList transactions={documents} />}
       </div>
       <div className={styles.sidebar}>
